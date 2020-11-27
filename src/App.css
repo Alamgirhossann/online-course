@@ -1,0 +1,22 @@
+.main-div{
+  background-color: rgb(223, 217, 217);
+}
+.courses-div{
+  display: flex;  
+  margin-top: 50px;
+  border: 3px solid tomato;
+}
+.course-info{
+  width:75%;
+  height: auto;
+}
+.cart{
+ border-left: 2px solid tomato; 
+ width:20%;
+ color: rgb(107, 101, 101);
+ text-align: center;
+}
+.heading{
+  text-align: center;
+  color: rgb(56, 55, 55);
+}
