@@ -9,7 +9,7 @@ const Courses = (props) => {
     let { title, price, description } = props.course;
     return (
         <div className="course-div">
-            <h3>Course Title: {title} </h3>
+            <h3>{title} </h3>
             <p><small>Module: {description} </small></p>
             <h5>Course Price: ${price} </h5>
             <button onClick={() => handleAddPrice(props.course)} className="btn btn-success">Enroll Now</button>
